@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/events.css"/>
+    <link rel="stylesheet" href="css/title.css"/>
+    <link rel="stylesheet" href="css/card.css"/>
+    <link rel="stylesheet" href="css/button.css"/>
+    <link rel="stylesheet" href="css/music.css"/>
+    <link rel="stylesheet" href="css/scroll-bar.css"/>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    <script src="js/hue.js"></script>
+    <script src="js/index.js"></script>
+    <title>Яндекс Дом</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  </head>
+  <body>
+    <div class="layout">
+     <div class="header">
+        <div class="logo">
+          <img src="images/logo.svg" alt="Яндекс Дом">
+        </div>
+        <nav class="navigator">
+          <a href="#" class="navigator__link navigator__link_active">Сводка</a>
+          <a href="#" class="navigator__link">Устройства</a>
+          <a href="#" class="navigator__link">Сценарии</a>
+          <a onclick="addSimpleCard()" class="navigator__link">Добавить карточку</a>
+        </nav>
+        <div class="menu">
+          <input id="switcher" type="checkbox">
+          <label class="burger" for="switcher">
+            <label for="switcher" class="burger__item"></label>
+            <label for="switcher" class="burger__item"></label>
+            <label for="switcher" class="burger__item"></label>
+          </label>
+          <nav class="list">
+            <a href="#" class="list__link">Сводка</a>
+            <a href="#" class="list__link">Устройства</a>
+            <a href="#" class="list__link">Сценарии</a>
+          </nav>
+        </div>
+      </div>
+      <div class="events">
+        <h1 class="title title_size_l">Лента событий</h1>
+        <div class="events__list">
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__list">
+          <a href="#" class="footer__link">Помощь</a>
+          <a href="#" class="footer__link">Обратная связь</a>
+          <a href="#" class="footer__link">Разработчикам</a>
+          <a href="#" class="footer__link">Условия использования</a>
+          <a href="license.pdf" class="footer__link">Авторские права</a>
+        </div>
+        <label class="footer__copy">© 2001–2017  ООО «Яндекс»</label>
+      </footer>
+    </div>
+  </div>
+  </body>
+</html>
